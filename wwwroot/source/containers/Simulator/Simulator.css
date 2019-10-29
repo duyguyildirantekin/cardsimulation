@@ -1,0 +1,17 @@
+.Simulator{
+    font-family: 'Times New Roman', Times, serif;  
+    border: 2px solid grey;
+    border-radius: 3px;    
+    padding: 50px;
+    width:100%;   
+    display: inline-table; 
+    text-align: center;
+    background-color: #FEFEF5;
+    
+   
+}
+.dvFunctions{
+
+    display: flex;
+    justify-content: space-evenly;
+}

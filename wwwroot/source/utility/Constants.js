@@ -1,0 +1,1 @@
+export const LIMIT_OF_CHECK_OUT = 20;

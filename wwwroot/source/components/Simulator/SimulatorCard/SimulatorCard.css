@@ -1,0 +1,41 @@
+.SimulatorCard{
+    border: 1px solid grey;
+    border-radius: 3px;    
+    display: table;
+    text-align: left;
+    padding: 10px;
+    width: 100%;
+}
+.close {
+    display: inline-block;
+    right: 32px;
+    top: 32px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+  }
+  .close:hover {
+    opacity: 1;
+  }
+  .close:before, .close:after {
+    display: inline-block;
+    left: 20px;
+    content: ' ';
+    height: 20px;
+    width: 3px;
+    background-color: black;
+  }
+  .close:before {
+    transform: rotate(45deg);
+  }
+  .close:after {
+    transform: rotate(-45deg);
+  }
+  .Failed{
+    color: red;
+    font-style: italic;
+  }
+  .Success{
+    color:grey;
+
+  }
